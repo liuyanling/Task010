@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    border: 1px solid #ccc;
+    width: 40%;
+    padding: 20px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+}
+.container div{
+    border: 1px solid #f00;
+    width: 150px;
+    /*align-self: flex-start;*/
+}
+.item1{
+    height: 120px;
+}
+.item2{
+    height: 100px;
+}
+.item3{
+    height: 40px;
+}
+.item4{
+    /*order: -1;*/
+    height: 200px;
+    border-color: #00f !important;
+}
